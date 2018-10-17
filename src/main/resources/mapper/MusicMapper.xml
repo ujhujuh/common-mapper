@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.common.mapper.MusicMapper">
+  <resultMap id="BaseResultMap" type="com.common.entity.Music">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="album" jdbcType="VARCHAR" property="album" />
+    <result column="gender" jdbcType="VARCHAR" property="gender" />
+    <result column="singer" jdbcType="VARCHAR" property="singer" />
+    <result column="song_link" jdbcType="VARCHAR" property="songLink" />
+    <result column="song_name" jdbcType="VARCHAR" property="songName" />
+    <result column="creator" jdbcType="VARCHAR" property="creator" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="modifier" jdbcType="VARCHAR" property="modifier" />
+    <result column="last_update_time" jdbcType="TIMESTAMP" property="lastUpdateTime" />
+    <result column="version" jdbcType="INTEGER" property="version" />
+  </resultMap>
+</mapper>
